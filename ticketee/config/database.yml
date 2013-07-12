@@ -5,9 +5,10 @@
 #   gem 'sqlite3'
 development:
   adapter: sqlite3
-  database: db/development.sqlite3
-  pool: 5
-  timeout: 5000
+  database: ticketee_developmnet
+  username: root
+  password: t0ps3cr3t
+  encoding: utf8
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
